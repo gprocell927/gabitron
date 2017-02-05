@@ -22,3 +22,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App-header, .App-intro{
+  padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  .App-header, .App-intro {
+    padding-left: 0;
+  }
+}
